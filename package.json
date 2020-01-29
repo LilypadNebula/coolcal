@@ -1,0 +1,26 @@
+{
+  "name": "coolcal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilypadNebula/coolcal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilypadNebula/coolcal/issues"
+  },
+  "homepage": "https://github.com/LilypadNebula/coolcal#readme",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0"
+  }
+}
