@@ -49,7 +49,9 @@ client
   
 client.registry
 	.registerGroup('calendar', 'Calendar')
+	.registerGroup('month', 'Month')
 	.registerDefaults()
+	.registerTypesIn(path.join(__dirname, 'types'))
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.login(process.env.BOT_TOKEN);
